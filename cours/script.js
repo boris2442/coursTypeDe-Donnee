@@ -41,4 +41,17 @@ let array4=['bafou', 52, true, 'bafang', 'bamenda', null, {
 //affiche 42
 
 console.log(array4[6].age);
-console.log(array4[4])
+console.log(array4[4]);
+
+let object2={
+    firstname: "rosto",
+  lastname: "dev",
+  age: 29,
+  technos: ["Javascript", "NodeJs", "React", "laravel", "Flutter"],
+  admin: false
+}
+console.log(typeof(object2));
+
+//affichage du react.js
+
+console.log(object2.technos[2]);
