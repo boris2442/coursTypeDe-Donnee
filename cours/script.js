@@ -17,3 +17,8 @@ console.log(nbre);
 
 let array2=['Bafou', 'Batie', 'Bafang'];
 console.log(array2[0][2]);
+
+console.log(array2.length);
+//tableaux2
+
+let array3=['Bafou', 42, true, 'bamenda', ];
