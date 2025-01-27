@@ -55,3 +55,8 @@ console.log(typeof(object2));
 //affichage du react.js
 
 console.log(object2.technos[2]);
+
+//ajout d'ue donnee dams l'object
+
+object2.adress='bafoussam';
+console.log(object2)
