@@ -33,11 +33,12 @@ let person={
 }
 console.log(person)
 
-let array4=['bafou', 42, true, 'bafang', null, {
+let array4=['bafou', 52, true, 'bafang', 'bamenda', null, {
     name:'Myrador',
     age:42,
 }  ]
 
 //affiche 42
 
-console.log(array4[1])
+console.log(array4[6].age);
+console.log(array4[4])
