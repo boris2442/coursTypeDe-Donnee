@@ -11,3 +11,9 @@ let object_null=null;
 console.log(object_null);
 
 let array=[1, 2, 3];
+let nbre;
+console.log(nbre);
+//les tableaux
+
+let array2=['Bafou', 'Batie', 'Bafang'];
+console.log(array2[0][2]);
