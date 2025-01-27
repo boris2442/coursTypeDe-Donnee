@@ -62,7 +62,7 @@ object2.adress='bafoussam';
 console.log(object2);
 
 
-GENIE INFORMATIQUE : CANADIENNE, [27/01/2025 16:01]
+// GENIE INFORMATIQUE : CANADIENNE, [27/01/2025 16:01]
 // Stocké les données
 let data = [
   {
@@ -88,3 +88,11 @@ let data = [
     admin: true
   },
 ];
+
+console.log(data[2]);
+
+//structure de controles
+
+if(data[0].age>data[1].age) {
+    console.log(data[0].firstname + "est plus agé que" +data[1].firstname );
+}
