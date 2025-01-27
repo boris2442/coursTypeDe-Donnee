@@ -21,4 +21,23 @@ console.log(array2[0][2]);
 console.log(array2.length);
 //tableaux2
 
-let array3=['Bafou', 42, true, 'bamenda', ];
+let array3=['Bafou', 42, true, 'bamenda', null];
+
+let person={
+    nom:"simo",
+    age:42,
+    istrue:42,
+    city:"bafang",
+    inNull:null
+    
+}
+console.log(person)
+
+let array4=['bafou', 42, true, 'bafang', null, {
+    name:'Myrador',
+    age:42,
+}  ]
+
+//affiche 42
+
+console.log(array4[1])
