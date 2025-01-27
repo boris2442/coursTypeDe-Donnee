@@ -59,4 +59,32 @@ console.log(object2.technos[2]);
 //ajout d'ue donnee dams l'object
 
 object2.adress='bafoussam';
-console.log(object2)
+console.log(object2);
+
+
+GENIE INFORMATIQUE : CANADIENNE, [27/01/2025 16:01]
+// Stocké les données
+let data = [
+  {
+    firstname: "rosto1",
+    lastname: "dev1",
+    age: 30,
+    technos: ["Javascript", "NodeJs", "React", "laravel", "Flutter"],
+    adress: "MarchéB",
+    admin: false
+  },
+  {
+    firstname: "rosto2",
+    lastname: "dev2",
+    age: 29,
+    technos: ["Php", "NodeJs", "React", "Python", "Flutter"],
+    admin: false
+  },
+  {
+    firstname: "rosto3",
+    lastname: "dev3",
+    age: 32,
+    technos: ["CSS", "NodeJs", "React", "Taillwindcss", "Flutter"],
+    admin: true
+  },
+];
