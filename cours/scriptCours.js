@@ -1,24 +1,31 @@
+
+window.onload = function() {
+  document.querySelector('.loader').style.display = 'none';
+  document.querySelector('.loader').style.transition='5s ease-out'
+};
+
+
 let string="chaine";
-console.log(typeof(string));
+// console.log(typeof(string));
 
 let number=42;
-console.log(number);
+// console.log(number);
 
 let boolean=true;
-console.log(boolean);
+// console.log(boolean);
 
 let object_null=null;
-console.log(object_null);
+// console.log(object_null);
 
 let array=[1, 2, 3];
 let nbre;
-console.log(nbre);
+// console.log(nbre);
 //les tableaux
 
 let array2=['Bafou', 'Batie', 'Bafang'];
-console.log(array2[0][2]);
+// console.log(array2[0][2]);
 
-console.log(array2.length);
+// console.log(array2.length);
 //tableaux2
 
 let array3=['Bafou', 42, true, 'bamenda', null];
@@ -31,7 +38,7 @@ let person={
     inNull:null
     
 }
-console.log(person)
+// console.log(person)
 
 let array4=['bafou', 52, true, 'bafang', 'bamenda', null, {
     name:'Myrador',
@@ -40,8 +47,8 @@ let array4=['bafou', 52, true, 'bafang', 'bamenda', null, {
 
 //affiche 42
 
-console.log(array4[6].age);
-console.log(array4[4]);
+// console.log(array4[6].age);
+// console.log(array4[4]);
 
 let object2={
     firstname: "rosto",
@@ -50,16 +57,16 @@ let object2={
   technos: ["Javascript", "NodeJs", "React", "laravel", "Flutter"],
   admin: false
 }
-console.log(typeof(object2));
+// console.log(typeof(object2));
 
 //affichage du react.js
 
-console.log(object2.technos[2]);
+// console.log(object2.technos[2]);
 
 //ajout d'ue donnee dams l'object
 
 object2.adress='bafoussam';
-console.log(object2);
+// console.log(object2);
 
 
 // GENIE INFORMATIQUE : CANADIENNE, [27/01/2025 16:01]
@@ -89,12 +96,12 @@ let data = [
   },
 ];
 
-console.log(data[2]);
+// console.log(data[2]);
 
 //structure de controles
 
 if(data[0].age>data[1].age) {
-    console.log(data[0].firstname + "est plus agé que" +data[1].firstname );
+    // console.log(data[0].firstname + "est plus agé que" +data[1].firstname );
 }
 
 //boucle while
@@ -106,7 +113,7 @@ if(data[0].age>data[1].age) {
 // }
 
 document.body.addEventListener("click", (e)=>{
-    console.log(e.target);
+    // console.log(e.target);
     if(e.target.id==="javascript"){
       
         document.body.style.backgroundColor='yellow';
@@ -121,3 +128,11 @@ document.body.addEventListener("click", (e)=>{
         document.body.style.backgroundColor='purple';
     }
 })
+//typewriter
+
+// switch(e.target.id){
+
+// }
+
+
+let fruit1=["banane", "pomme"];
